@@ -109,11 +109,11 @@ void main(void)
             if(et1==1)LCD_Init();
             LCD_ShowString(1,1,"Tem:");
             LCD_ShowString(1,8,".");
-            LCD_ShowString(2,1,"Limit:");
+            // LCD_ShowString(2,1,"Limit:");
             LCD_ShowNum(1,6,PTC,2);
             // LCD_ShowNum(1,13,ds18b20Flag,1);
             LCD_ShowNum(1,9,temptc*100,2);
-            LCD_ShowNum(2,7,temlimit,2);
+            // LCD_ShowNum(2,7,temlimit,2);
             et1 = 0;
         }
         if(interface == 2)
